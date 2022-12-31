@@ -1,0 +1,58 @@
+# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+name: Metrics
+on:
+  # once a week (on sunday)
+  schedule: [{cron: "0 * * * 0"}]
+  # on each commit
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # github token
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          user: tcurdt
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Berlin
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_calendar: yes
+          plugin_languages: yes
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          plugin_lines: yes
+          plugin_notable: yes
+          plugin_people: yes
+          plugin_people_limit: 24
+          plugin_people_size: 28
+          plugin_people_types: followers, following
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_limit: 2
+          plugin_stackoverflow_lines: 4
+          plugin_stackoverflow_lines_snippet: 2
+          plugin_stackoverflow_sections: answers-top, questions-recent
+          plugin_stackoverflow_user: 33165
+          #plugin_tweets: yes
+          #plugin_tweets_token: $ { { secrets.TWITTER_TOKEN }}
+          #plugin_tweets_limit: 2
+          #plugin_tweets_user: tcurdt
