@@ -191,7 +191,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    136k added, 98k removed
+                                    228k added, 112k removed
                                 </div>
                             </section>
                             <section>
@@ -341,14 +341,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="201.07066984497106" height="8" fill="#438eff"/>
-                    <rect mask="url(#languages-bar)" x="201.07066984497106" y="0" width="115.02104542376118" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="316.09171526873223" y="0" width="80.40126951200733" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="396.49298478073956" y="0" width="18.657440971950823" height="8" fill="#6E4C13"/>
-                    <rect mask="url(#languages-bar)" x="415.1504257526904" y="0" width="12.460290306561594" height="8" fill="#7e7eff"/>
-                    <rect mask="url(#languages-bar)" x="427.610716059252" y="0" width="12.386550586477666" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="439.99726664572967" y="0" width="11.932701447975703" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="451.9299680937054" y="0" width="8.070031906294625" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="201.27151094176122" height="8" fill="#438eff"/>
+                    <rect mask="url(#languages-bar)" x="201.27151094176122" y="0" width="115.13593514355307" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="316.4074460853143" y="0" width="80.0221041895357" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="396.42955027485" y="0" width="18.676077110732244" height="8" fill="#6E4C13"/>
+                    <rect mask="url(#languages-bar)" x="415.1056273855822" y="0" width="12.47273637029343" height="8" fill="#7e7eff"/>
+                    <rect mask="url(#languages-bar)" x="427.57836375587567" y="0" width="12.39892299468197" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="439.9772867505576" y="0" width="11.944620525225153" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="451.92190727578276" y="0" width="8.078092724217207" height="8" fill="#00ADD8"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1084,7 +1084,7 @@ Here is an example that demonstrates the difference.
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     inspirer
-                                    <span class="gh">ranked 39.4k out of 240m repositories</span>
+                                    <span class="gh">ranked 39.4k out of 239m repositories</span>
                                 </div>
                                 <div class="text">Maintaining or created a repository which has been forked 321 times</div>
                             </div>
@@ -1188,7 +1188,7 @@ Here is an example that demonstrates the difference.
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     maintainer
-                                    <span class="gh">ranked 44.1k out of 240m repositories</span>
+                                    <span class="gh">ranked 44.1k out of 239m repositories</span>
                                 </div>
                                 <div class="text">Maintaining a repository with 1208 stars</div>
                             </div>
@@ -1376,7 +1376,7 @@ Here is an example that demonstrates the difference.
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 16 Feb 2025, 19:10:32 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 16 Feb 2025, 20:07:26 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
